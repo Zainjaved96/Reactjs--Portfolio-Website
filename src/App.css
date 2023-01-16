@@ -1,0 +1,490 @@
+* {
+  font-family: 'poppins' !important;
+}
+
+body , html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+@keyframes react-reveal-main {
+  0% {
+    opacity: 0;
+    transform: translate3d(0px, 40px, 0px);
+}
+
+100% {
+    opacity: 1;
+    transform: none;
+}
+}
+
+@keyframes react-reveal-nav {
+  0% {
+    opacity: 0;
+    transform: translate3d(0px, -20px, 0px);
+  }
+  
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes right-text {
+  0% {
+    opacity: 0;
+    transform: translate3d(100%, 0px, 0px);
+}
+
+  100% {
+      opacity: 1;
+      transform: none;
+  }
+}
+
+.skill-head , .para {
+    animation-fill-mode: both;
+    animation-delay: 0ms;
+    animation-duration: 1000ms;
+    animation-iteration-count: 1;
+    opacity: 1;
+    animation-name: right-text;
+}
+
+.para {
+  animation-duration: 1500ms;
+}
+
+@font-face {
+  font-family: aug;
+  src: url("./assets/aug.ttf") format("ttf");
+}
+
+
+
+
+body {
+  background: rgb(237, 249, 254);
+}
+
+nav  {
+    animation-fill-mode: both;
+    animation-duration: 1000ms;
+    animation-delay: 0ms;
+    animation-iteration-count: 1;
+    opacity: 1;
+    animation-name: react-reveal-nav;
+}
+
+.navbar {
+  padding: 20px 10px !important;
+  background-color: rgb(237, 249, 254) !important;
+}
+
+.nav-item > a  {
+  text-decoration: none;
+  padding: 20px !important;
+}
+
+.nav-item > a:hover {
+  background-color: rgb(166, 225, 250);
+}
+
+.logo-name {
+  color: #875683;
+  font-size: 1.5em;
+  font-family: aug;
+}
+
+.greeting , .edu-main , .main-head ,  .exp-main , .proj-main , .contact-main  {
+  animation-fill-mode: both;
+  animation-duration: 2000ms;
+  animation-delay: 0ms;
+  animation-iteration-count: 1;
+  opacity: 1;
+  animation-name: react-reveal-main;
+}
+
+.contact-main {
+  margin-bottom: 50px;
+}
+.exp-main {
+  margin-bottom: 90px;
+}
+
+
+.greeting {
+  margin-top: 50px;
+  margin-bottom: 150px;
+}
+.section-img {
+  align-self: center;
+}
+
+.section-left {
+  padding: 20px;
+  align-self: center;
+  text-align: left;
+}
+.section-head {
+  font-size: 50px;
+  font-weight: 700;
+  color: #875683;
+}
+
+.social-icon {
+  color: #875683;
+  font-size: 40px;
+  padding: 10px;
+}
+
+.para {
+  font-size: 20px;
+  color:  #7f8daa;
+  font-weight: 500;
+  padding: 20px;
+}
+
+.main-head {
+  font-size: 50px;
+  margin-top: 50px;
+  font-weight: 700;
+  text-align: center;
+  color: #875683;
+  margin-bottom: 70px;
+}
+
+
+.skill-head {
+  font-size: 40px;
+}
+
+.skill-list {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+}
+
+.front-end {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 80px;
+}
+
+
+.socials > i:hover {
+  color: #875683;
+}
+
+
+.linkedin > i {
+  color: #0077B5;
+}
+
+.github > i {
+  color: black;
+}
+
+.insta > i {
+  color: #E4405F ;
+}
+
+.facebook > i {
+  color: rgb(24, 119, 242)
+}
+
+.gmail > i {
+  color: #D14836;
+}
+
+
+.skill-icon {
+  padding: 10px;
+  font-size: 60px;
+}
+
+
+
+
+.automation-img {
+  align-self: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.automation {
+  margin: 0px 40px;
+  margin-bottom: 50px;
+}
+
+.automation-icons > i {
+  font-size: 50px ;
+  padding: 10px;
+}
+
+.automation-icons {
+  margin: 30px 0px;
+}
+
+
+.flash-icon {
+  font-size: 30px;
+}
+
+
+
+
+.footer {
+  color: #875683;
+  font-size: 16px;
+  margin: 16px 0px;
+  font-weight: 500;
+}
+
+.footer-icon {
+  font-size: 20px;
+}
+.da-img2 {
+  display: none;
+  align-self: center;
+}
+
+@media (max-width:720px) {
+  body,html {
+    overflow-x: scroll;
+  }
+  .project{
+    width: 100%;
+  }
+  .da-img {
+    display: none;
+  }
+  .da-img2 {
+    display: block;
+  }
+  .nav-container {
+    display: inline !important;
+  }
+
+  .nav-button {
+    float: right;
+  }
+
+
+
+}
+
+.edu-main {
+  margin-top: 20px;
+  margin-bottom: 80px;
+}
+.edu-para {
+  font-weight: 600;
+}
+
+.degree-heading {
+  font-size: 50px;
+  margin-bottom: 20px;
+  word-spacing: 1px;
+  letter-spacing: 0.2px;
+}
+
+.card , .card-body {
+  padding: 0px;
+  margin: 0px;
+  border-radius: 7px;
+}
+.degree-head {
+  background-color: #875683;
+  padding: 20px;
+  color: whitesmoke;
+}
+
+.degree-name {
+  font-size: 30px;
+}
+
+.degree-head > p {
+  font-size: 17px;
+}
+
+.degree-year {
+  font-size: 17px;
+}
+
+.degree-body {
+  padding: 20px;
+  font-size: 17px;
+}
+
+.degree-button {
+  margin: 10px 10px;
+  background-color: #875683;
+  border-color: #875683;
+}
+
+
+.degree-button:hover {
+  background-color: #5a3757;
+  border-color: #5a3757 ;
+}
+
+.degree {
+  margin-bottom: 50px;
+}
+
+
+.certi-card {
+  margin-bottom: 40px;
+}
+
+.certi-cards {
+  padding: 30px;
+}
+
+.certi-body {
+  padding: 10px;
+  background-color: rgb(237, 249, 254);
+  border-radius: 0px;
+
+}
+
+
+.sub-head {
+  color: #875683;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.accordion , .accordion-item, .accordin-header, .accordion-body {
+  background-color: rgb(237, 249, 254);
+}
+
+.accordion-inner {
+  padding: 7px;
+  border: 1px #875683 solid;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+.accordion-button {
+  color: whitesmoke;
+  background-color: #875683;
+}
+
+.ac-role , .ac-company {
+  padding: 0px;
+  margin: 0px;
+}
+
+.ititan-img {
+padding:0px;
+margin: 0px;
+text-align: center;
+align-self: center;
+}
+
+.ac-role {
+  font-weight: 700 !important;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.ac-company {
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
+
+.projects {
+  margin-bottom: 20px;
+}
+
+
+.project {
+  margin: 10px 10px; 
+  padding: 30px 20px;
+  background-color: rgb(166, 225, 250);
+  text-decoration: none;
+  color: #5a3757;
+}
+
+.project:hover {
+  box-shadow:  0 10px 40px -15px rgba(0,0,0,.5);
+}
+
+.project-name {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.project-icons {
+  margin: 10px 0px;
+  padding:0px;
+}
+
+.project-icons > i {
+  margin: 10px 1px;
+  font-size: 30px;
+}
+
+.project2-icons > i {
+  font-size: 35px;
+}
+ 
+/* Tweet for mobile view */
+@media (max-width:720px) {
+  .projects {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+  }
+
+  .degree-heading {
+    font-size: 40px;
+  }
+
+  .para {
+    font-size: 18px;
+  }
+  .greeting-para {
+    font-size: 14px;
+  }
+
+  .section-left {
+    padding: 0px;
+  }
+
+  .front-end , .automation , .edu-main, .contact-main {
+    font-size: 16px;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .logo-name {
+    font-size: 30px;
+  }
+
+  .logo-img {
+    width: 35%;
+  }
+
+  
+
+}
+
+/* Tweet Ends */
+
+
+.contact-icons {
+  text-align: center;
+}
+
+
+.contact-head {
+  color:#875683;
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}

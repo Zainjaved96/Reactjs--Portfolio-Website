@@ -126,7 +126,24 @@ function Projects() {
                             </i>
                   </div>
             </a>
-            
+            <a className="project col" href='https://github.com/Zainjaved96/Crypto-Currencies-Tracker-Python'>
+                  <h5 className='project-name'>Calculator </h5>
+                  <p className='project-desc'>A Responsive Calculator Built on HTML CSS and JAVASCRIPT.It performs simple calculations as well as scientific calculations</p>
+                  <div className="automation-icons project-icons">
+                            <i className='skill-icon python-icon'>
+                                <SiPython color='rgb(20%, 40%, 59%)' /> 
+                            </i>
+                            <i className='skill-icon pandas-icon'>
+                                <SiPandas color='rgb(21, 114, 182)' /> 
+                            </i>
+                            <i className='skill-icon selenium-icon'>
+                                <SiSelenium color='green'/>
+                            </i>
+                            <i className='skill-icon numpy-icon'>
+                                <SiNumpy color='rgb(97, 218, 251)' />
+                            </i>
+                  </div>
+            </a>
           </div>
         
       
